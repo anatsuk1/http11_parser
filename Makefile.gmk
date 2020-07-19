@@ -5,16 +5,15 @@
 
 CC = gcc
 CFLAGS = -O2 -MMD -std=c99 -I$(INCLUDE_DIR)
-CFLAGS += -g
+# CFLAGS += -g
 LD = gcc
 LDFLAGS = -ll
 LEX = flex
 LFLAGS = -Cfe
-# LFLAGS = -Cfa
+# LFLAGS = -8Cfa
 RM = rm -rf
 
 EXE_OUT = http11_parser
-LEX_OUT = lex.yy.c
 OBJ_DIR = ./temporary/
 
 INCLUDE_DIR = ./
